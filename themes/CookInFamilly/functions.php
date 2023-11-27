@@ -117,7 +117,7 @@ function cookinfamily_settings_field_phone_number_output(){
     $value = get_option('cookinfamily_settings_field_phone_number');
     
     echo '<input 
-            name="cookinfamily_settings_field_phone"
+            name="cookinfamily_settings_field_phone_number"
             type="text" 
             value="'.$value.'"
         />';         
